@@ -1,6 +1,5 @@
 # Compressed-Face-Videos-Quality-Assessment
-
----------------------------------------------------
+<img src = "https://user-images.githubusercontent.com/45612850/199892894-0cc7a951-e84c-47bc-880a-1d87a5524ed1.png" width ="1000px">
 
 #### SOURCE VIDEOS
 
@@ -52,4 +51,8 @@ The download link of CFVQA dataset is: https://portland-my.sharepoint.com/:f:/g/
 
 
 Please cite the paper below if you include any part of this database in your work:
+[
+]
+
+#### Video Codec Information
 
