@@ -1,5 +1,5 @@
 # Compressed-Face-Videos-Quality-Assessment
-<img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/dataset-ref2.pdf" width ="1000px">
+<img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/dataset-ref2.jpg" width ="1000px">
 
 #### SOURCE VIDEOS
 
