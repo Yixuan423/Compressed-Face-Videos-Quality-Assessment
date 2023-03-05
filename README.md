@@ -109,7 +109,10 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 
 ### Usage
 
-python faceva.py --ref_path videos/Reference/1.yuv --comp_path videos/VVC/1_vvc_32.yuv
+Unzip the Reference and VVC folders.
+python facevqa.py --ref_path Reference/1.yuv --comp_path VVC/1_vvc_32.yuv
+-----
+"facevqa.py" pending update.
 
 ## COPYRIGHT NOTICE
 
