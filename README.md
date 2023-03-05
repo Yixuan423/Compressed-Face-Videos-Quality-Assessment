@@ -104,7 +104,7 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 
 - Multi-level spatial feature fusion parameters: /weights/DISTS.pt
 
-  Please download via https://portland-my.sharepoint.com/:u:/g/personal/yixli5-c_my_cityu_edu_hk/Ed6ZYYUpL49LurU8ac7mQjEBz6Az2odXu1bYbP9LoDhXgw?e=i8wVDk and put it in the weights folder.
+  Please download via https://portland-my.sharepoint.com/:u:/g/personal/yixli5-c_my_cityu_edu_hk/Ed6ZYYUpL49LurU8ac7mQjEBxB_2skaRmF5beCM1gAwAYg?e=Orbmy7 and put it in the weights folder.
 
 ### Usage
 
