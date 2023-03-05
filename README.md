@@ -9,6 +9,7 @@ Database and VQA codes for the following paper:
 
 ## HIGHLIGHTS
 - The first large-scale subjective video quality assessment for compressed face videos.
+- Spatial and temporal distortions, along with traditional and generative distortions are included and studied.
 - The first full-reference face video quality assessment method correlating well with human perceptual quality.
 - Free of training or fine-tuning.
 
