@@ -1,6 +1,6 @@
 # Compressed-Face-Videos-Quality-Assessment
 
-#### PROJECT DESCRIPTION
+## PROJECT DESCRIPTION
 
 Database and VQA code for the following paper
 
@@ -8,11 +8,11 @@ Database and VQA code for the following paper
 
 <img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/dataset-ref2.jpg" width ="1000px">
 
-#### HIGHLIGHTS
+## HIGHLIGHTS
 
 
 
-#### VQA DATASET INFORMATION
+## VQA DATASET INFORMATION
 
 In total, 3240 distorted face video sequences derivated from 135 reference face videos are included in our dataset. 
 The download link of CFVQA dataset is
@@ -24,14 +24,14 @@ Please contact YixuanLI (yixuanli423@gmail.com) for download password, questions
 Please cite the paper if you use any part of the videos or data supplied in this project page.
 
 
-##### SOURCE VIDEOS
+### SOURCE VIDEOS
 
 The source face videos were obtained from two copyright-free website Pexel(https://www.pexels.com/videos/) and Mixkit(https://mixkit.co/), where the videos are permitted to use, modify and redistribute freely without attribution.
 The raw videos were downloaded in MP4 format, then cropped and trimmed into demanding layout.
 All the source videos are in the resolution of 512 x 512, length 5 s and frame-rate of 25 fps
 The *.mp4 videos were converted into uncompressed *.yuv files using the ffmpeg (Command:ffmpeg -i %i -s 512x512 -pix_fmt yuv420p *.yuv ).
 
-##### COMPRESSED VIDEOS
+### COMPRESSED VIDEOS
 
 Compressed videos in this database are provided as *.yuv files.
 
@@ -39,7 +39,7 @@ All the video files have planar YUV 4:2:0 format and contain no headers.
 The resolution for all videos is 512 x 512. The 8-bit Y component of the first frame, followed the 8-bit U component of the first frame, followed by the 8-bit V component of the first frame. Frames are concatenated to form sequence files.
 
 
-##### FILENAMING CONVENTION
+### FILENAMING CONVENTION
 
 The file naming convention of this database has the pattern of "num_codec_qp.yuv" or "num.yuv".
 
@@ -68,7 +68,7 @@ The file naming convention of this database has the pattern of "num_codec_qp.yuv
 Specially, in the fomm and cfte folder:
 "100_fomm_22.yuv" denotes a compressed video obtained with fomm model with 10 key points, and the first frame is compressed by VVC in the QP level of 22. The same convention is for CFTE-compressed videos.
 
-##### VIDEO COMPRESSION CODEC IMPLEMENTATIONS
+### VIDEO COMPRESSION CODEC IMPLEMENTATIONS
 
 The implementation details of the employed video compression codecs can be found in the supplementary file. The adopted implementations are listed as followed.
 
@@ -84,11 +84,11 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 
 
 
-### VQA FRAMEWORK
+## FaceVQA FRAMEWORK
 
 <img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/framework.jpg" width ="850px">
 
-##### Dependencies
+### Dependencies
 
 - Python==3.7
 - Pytorch==1.8.0
@@ -97,7 +97,7 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 - scipy
 - Pillow
 
-##### Network and pretrained models
+### Network and pretrained models
 
 - Resnet for face recognition: frmodels.py from https://github.com/Tencent/TFace/tree/quality
 
@@ -107,11 +107,11 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 
   Please download via https://portland-my.sharepoint.com/:u:/g/personal/yixli5-c_my_cityu_edu_hk/Ed6ZYYUpL49LurU8ac7mQjEBz6Az2odXu1bYbP9LoDhXgw?e=i8wVDk and put it in the weights folder.
 
-##### Usage
+### Usage
 
 python faceva.py --ref_path videos/Reference/1.yuv --comp_path videos/VVC/1_vvc_32.yuv
 
-#### COPYRIGHT NOTICE
+## COPYRIGHT NOTICE
 
 Copyright (c) 2023 The City University of Hong Kong
 
