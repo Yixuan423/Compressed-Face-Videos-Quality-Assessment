@@ -1,15 +1,16 @@
 # Compressed-Face-Videos-Quality-Assessment
 
-## PROJECT DESCRIPTION
 
-Database and VQA code for the following paper
+Database and VQA codes for the following paper:
 
-- Yixuan Li. et al. "Perceptual Quality Assessment of Face Video Compression: A Benchmark and An Effective Method", 2023.
+> Yixuan Li. et al. "Perceptual Quality Assessment of Face Video Compression: A Benchmark and An Effective Method", 2023.
 
 <img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/dataset-ref2.jpg" width ="1000px">
 
 ## HIGHLIGHTS
-
+- The first large-scale subjective video quality assessment for compressed face videos.
+- The first full-reference face video quality assessment method correlating well with human perceptual quality.
+- Free of training or fine-tuning.
 
 
 ## VQA DATASET INFORMATION
