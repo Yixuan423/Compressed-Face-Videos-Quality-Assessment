@@ -29,9 +29,6 @@ Please cite the paper if you use any part of the videos or data supplied in this
 ### SOURCE VIDEOS
 
 The source face videos were obtained from two copyright-free website Pexel(https://www.pexels.com/videos/) and Mixkit(https://mixkit.co/), where the videos are permitted to use, modify and redistribute freely without attribution.
-The raw videos were downloaded in MP4 format, then cropped and trimmed into demanding layout.
-All the source videos are in the resolution of 512 x 512, length 5 s and frame-rate of 25 fps
-The *.mp4 videos were converted into uncompressed *.yuv files using the ffmpeg (Command:ffmpeg -i %i -s 512x512 -pix_fmt yuv420p *.yuv ).
 
 ### COMPRESSED VIDEOS
 
@@ -112,8 +109,10 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 ### Usage
 
 - Unzip the Reference and VVC folders.
-  python facevqa.py --ref_path Reference/1.yuv --comp_path VVC/1_vvc_32.yuv
------
+```
+python faceva.py --ref_path videos/Reference/1.yuv --comp_path videos/VVC/1_vvc_32.yuv
+```
+
 "facevqa.py" pending update.
 
 ## COPYRIGHT NOTICE
