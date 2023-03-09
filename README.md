@@ -35,7 +35,26 @@ The source face videos were obtained from two copyright-free website Pexel(https
 Compressed videos in this database are provided as *.yuv files.
 
 All the video files have planar YUV 4:2:0 format and contain no headers.
-The resolution for all videos is 512 x 512. The 8-bit Y component of the first frame, followed the 8-bit U component of the first frame, followed by the 8-bit V component of the first frame. Frames are concatenated to form sequence files.
+The resolution for all videos is 512 x 512. The 8-bit Y component of the first frame, followed by the 8-bit U and 8-bit V component of the first frame. Frames are concatenated to form sequence files.
+
+Here are some examplar compressed video clips contained in the CFVQA dataset.
+##Videos compressed by different compression methods
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223769902-07c00ec8-601e-419f-bffc-786b05e06f44.mp4)](https://user-images.githubusercontent.com/45612850/223769902-07c00ec8-601e-419f-bffc-786b05e06f44.mp4)
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223770877-27417c42-de47-4a31-9399-62bc63bf16df.mp4)](https://user-images.githubusercontent.com/45612850/223770877-27417c42-de47-4a31-9399-62bc63bf16df.mp4)
+
+#Videos compressed by the same compression methods in different compression levels
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223766342-11903afe-df21-4417-b9da-ad0f075205f2.mp4)](https://user-images.githubusercontent.com/45612850/223766342-11903afe-df21-4417-b9da-ad0f075205f2.mp4)
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223772262-6a19a075-f621-4ae5-944d-af0828e76641.mp4)](https://user-images.githubusercontent.com/45612850/223772262-6a19a075-f621-4ae5-944d-af0828e76641.mp4)
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223772339-a1752517-c563-4d66-bf51-ca600d7a9b0f.mp4)](https://user-images.githubusercontent.com/45612850/223772339-a1752517-c563-4d66-bf51-ca600d7a9b0f.mp4)
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223772474-9ef71c66-22ad-4a35-9474-ecde5f7b18bc.mp4)](https://user-images.githubusercontent.com/45612850/223772474-9ef71c66-22ad-4a35-9474-ecde5f7b18bc.mp4)
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223772526-ff2ee632-8849-4fb7-a909-b0a3d00620e5.mp4)](https://user-images.githubusercontent.com/45612850/223772526-ff2ee632-8849-4fb7-a909-b0a3d00620e5.mp4)
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223772585-9a3aaeef-5401-4d6e-a7da-0f09094ce01b.mp4)](https://user-images.githubusercontent.com/45612850/223772585-9a3aaeef-5401-4d6e-a7da-0f09094ce01b.mp4)
 
 
 ### FILENAMING CONVENTION
