@@ -120,7 +120,7 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 python faceva.py --ref_path videos/Reference/1.yuv --comp_path videos/VVC/1_vvc_32.yuv
 ```
 
-"facevqa.py" pending update.
+"facevqa.py" will be updated after the review.
 
 ### Examplar cases
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223766342-11903afe-df21-4417-b9da-ad0f075205f2.mp4)](https://user-images.githubusercontent.com/45612850/223766342-11903afe-df21-4417-b9da-ad0f075205f2.mp4)
