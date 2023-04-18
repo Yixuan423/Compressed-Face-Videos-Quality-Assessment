@@ -3,13 +3,14 @@
 
 Database and VQA codes for the following paper:
 
-> @article{yixuan2023cfvqa,
+```
+@article{yixuan2023cfvqa,
   title={Perceptual Quality Assessment of Face Video Compression: A Benchmark and An Effective Method},
   author={Yixuan Li, Bolin Chen, Baoliang Chen, Meng Wang and Shiqi Wang},
   journal={arXiv preprint arXiv:2304.07056},
   year={2023}
   }
-  
+```  
 <img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/dataset-ref2.jpg" width ="1000px">
 
 ## HIGHLIGHTS
