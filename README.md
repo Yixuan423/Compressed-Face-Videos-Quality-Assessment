@@ -28,6 +28,7 @@ The download link of CFVQA dataset is
 Onedrive:  https://portland-my.sharepoint.com/:f:/g/personal/yixli5-c_my_cityu_edu_hk/EqdHThcDoGxBiAFikI0areAB_0bDyfw8_Q0lZpPD9dDJFQ?e=2fJFaN
 
 Please contact YixuanLI (yixuanli423@gmail.com) for download password, questions or comments.
+（If you need the face videos with larger spatial resolution and longer duration in the MP4 format, also can contact me.）
 
 Please cite the paper if you use any part of the videos or data supplied in this project page.
 
@@ -35,6 +36,9 @@ Please cite the paper if you use any part of the videos or data supplied in this
 ### SOURCE VIDEOS
 
 The source face videos were obtained from two copyright-free website Pexel(https://www.pexels.com/videos/) and Mixkit(https://mixkit.co/), where the videos are permitted to use, modify and redistribute freely without attribution.
+
+**Please note that the videos from mixkit.com are only free of non-commercial use, for commercial usage, please refer to the videos from the pexels.com.
+(If you need to know the face videos free of commercial usage, please contact me.)
 
 ### COMPRESSED VIDEOS
 
