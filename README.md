@@ -6,7 +6,7 @@ Database and VQA codes for the following paper:
 ```
 @article{yixuan2023cfvqa,
   title={Perceptual Quality Assessment of Face Video Compression: A Benchmark and An Effective Method},
-  author={Yixuan Li, Bolin Chen, Baoliang Chen, Meng Wang and Shiqi Wang},
+  author={Yixuan Li, Bolin Chen, Baoliang Chen, Meng Wang, and Shiqi Wang},
   journal={arXiv preprint arXiv:2304.07056},
   year={2023}
   }
@@ -22,14 +22,17 @@ Database and VQA codes for the following paper:
 
 ## VQA DATASET INFORMATION
 
-In total, 3240 distorted face video sequences derivated from 135 reference face videos are included in our dataset. 
-The download link of CFVQA dataset is
+In total, 3240 distorted face video sequences derived from 135 reference face videos are included in our dataset. 
+The download link of the CFVQA dataset is
 
 Onedrive:  https://portland-my.sharepoint.com/:f:/g/personal/yixli5-c_my_cityu_edu_hk/EqdHThcDoGxBiAFikI0areAB_0bDyfw8_Q0lZpPD9dDJFQ?e=2fJFaN
 
-Please contact YixuanLI (yixuanli423@gmail.com) for download password, questions or comments.
+[Due to copyright issues, some videos from **Avcocado.com** are eliminated from the dataset and are replaced by copywrite-free data.]
+
+Please contact YixuanLI (yixuanli423@gmail.com) for the download password, questions or comments.
 （If you need the face videos with larger spatial resolution and longer duration in the MP4 format, also can contact me.）
 
+ (The onedrive link might be invalid from 2025.1. If so, please contact me.)
 Please cite the paper if you use any part of the videos or data supplied in this project page.
 
 
@@ -67,7 +70,7 @@ The file naming convention of this database has the pattern of "num_codec_qp.yuv
 2. "codec" means the video compression codec used for generating compressed video sequence. The patterns used for them are as follows:
 
 - ​	"vvc"  - Versatile Video Coding (VVC)	
-- ​	"rl"  - reduced resolusion coding
+- ​	"rl"  - reduced resolution coding
 - ​	"dvc"  - DVC: An End-to-end Deep Video Compression Framework
 - ​	"rlvc" - Learning for Video Compression with Recurrent Auto-Encoder and Recurrent Probability Model
 - ​	"fomm" - First Order Motion Model for Image Animation
@@ -103,6 +106,7 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 ## FaceVQA FRAMEWORK
 
 <img src = "https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment/blob/main/figures/framework.jpg" width ="850px">
+FAVOR: https://drive.google.com/file/d/1_ZaoSMp-6IFNWiRpO5Lh2gv9n5C4KXSW/view?usp=sharing
 
 ### Dependencies
 
@@ -123,14 +127,12 @@ CFTE: https://github.com/alibaba-edu/temporal-evolution-inference-with-compact-f
 
   Please download via https://portland-my.sharepoint.com/:u:/g/personal/yixli5-c_my_cityu_edu_hk/Ed6ZYYUpL49LurU8ac7mQjEBxB_2skaRmF5beCM1gAwAYg?e=Orbmy7 and put it in the weights folder.
 
-### Usage
+### Example Usage
 
 - Unzip the Reference and VVC folders.
 ```
-python faceva.py --ref_path videos/Reference/1.yuv --comp_path videos/VVC/1_vvc_32.yuv
+python favor_evaluation.py
 ```
-
-"facevqa.py" will be updated after the review.
 
 ### Examplar cases
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/45612850/223766342-11903afe-df21-4417-b9da-ad0f075205f2.mp4)](https://user-images.githubusercontent.com/45612850/223766342-11903afe-df21-4417-b9da-ad0f075205f2.mp4)
